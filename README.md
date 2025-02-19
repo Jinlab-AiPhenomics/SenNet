@@ -19,7 +19,7 @@ A Colab tutorial is also provided. You may preview the notebook [here](demo/MMSe
 
 ## Citation
 
-If you find this project useful in your research, please consider cite:
+Our research is cited as fllow:
 
 ```bibtex
 @misc{mmseg2020,
