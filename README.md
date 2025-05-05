@@ -1,6 +1,6 @@
 ## Introduction
 
-SenNet is an open source semantic segmentation model based on PyTorch.
+SenNet is an open-source semantic segmentation model based on PyTorch.
 
 The [main](https://github.com/open-mmlab/mmsegmentation/tree/main) branch works with PyTorch 1.6+.
 
@@ -17,9 +17,9 @@ There are also [advanced tutorials](https://mmsegmentation.readthedocs.io/en/lat
 
 Run the tools/train.py file and fill in the configuration file to train the model.
 
-# The scripts for fitting senescence curves and calculating dynamic senescence traits are provided in tools/senescence-logist.py    
-# The scripts for screening high-yielding varieties using machine learning are provided in tools/RF.py    
-# The scripts for computing OA, F1, and Recall metrics are provided in tools/evaluate_classic.py    
+### The scripts for fitting senescence curves and calculating dynamic senescence traits are provided in tools/senescence-logist.py    
+### The scripts for screening high-yielding varieties using machine learning are provided in tools/RF.py    
+### The scripts for computing OA, F1, and Recall metrics are provided in tools/evaluate_classic.py    
 
 ## Citation
 
