@@ -53,4 +53,25 @@ print("Mean Absolute Error (MAE):", mae)
 
 # 显示部分预测结果
 predictions = pd.DataFrame({"Actual": y_test, "Predicted": y_pred})
+
+# 分类：将预测值按照实际产量的25%, 50%, 75%分位数进行划分
+q1 = y_test.quantile(0.25)
+q2 = y_test.quantile(0.5)
+q3 = y_test.quantile(0.75)
+
+def classify_yield(value):
+    if value <= q1:
+        return 'Low'
+    elif value <= q2:
+        return 'Medium'
+    else:
+        return 'High'
+
+# 应用分类
+predictions['Category'] = predictions['Predicted'].apply(classify_yield)
+
+# 保存分类结果到新的Excel文件
+predictions.to_excel('predictions_with_categories.xlsx', index=False)
+
+# 查看部分分类结果
 print(predictions.head())
