@@ -19,7 +19,7 @@ Run the tools/train.py file and fill in the configuration file to train the mode
 
 We also provide code for fitting senescence curves and calculating dynamic senescence traits and in tools/senescence-logist.py
 
-Moreover, We provide code for machine learning to screen high-yielding varieties in tools/RF.py
+Moreover, We provide code for machine learning to screen high-yielding varieties in tools/RF.py and compute OA, F1, Recall in tools/evaluate_classic.py
 
 ## Citation
 
