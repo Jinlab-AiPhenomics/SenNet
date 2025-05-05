@@ -13,13 +13,16 @@ Please refer to [get_started.md](docs/en/get_started.md#installation) for instal
 Please see [Overview](docs/en/overview.md) for the general introduction of MMSegmentation.
 
 Please see [user guides](https://mmsegmentation.readthedocs.io/en/latest/user_guides/index.html#) for the basic usage of MMSegmentation.
+
 There are also [advanced tutorials](https://mmsegmentation.readthedocs.io/en/latest/advanced_guides/index.html) for in-depth understanding of mmseg design and implementation.
 
 Run the tools/train.py file and fill in the configuration file to train the model.
 
-### The scripts for fitting senescence curves and calculating dynamic senescence traits are provided in tools/senescence-logist.py    
-### The scripts for screening high-yielding varieties using machine learning are provided in tools/RF.py    
-### The scripts for computing OA, F1, and Recall metrics are provided in tools/evaluate_classic.py    
+The scripts for fitting senescence curves and calculating dynamic senescence traits are provided in tools/senescence-logist.py    
+
+The scripts for screening high-yielding varieties using machine learning are provided in tools/RF.py    
+
+The scripts for computing OA, F1, and Recall metrics are provided in tools/evaluate_classic.py    
 
 ## Citation
 
