@@ -33,3 +33,7 @@ python tools/dataset_converters/voc_aug.py data/VOCdevkit data/VOCdevkit/VOCaug 
 ```
 
 Please refer to [concat dataset](../advanced_guides/add_datasets.md#concatenate-dataset) and [voc_aug config example](../../../configs/_base_/datasets/pascal_voc12_aug.py) for details about how to concatenate them and train them together.
+
+## WheatSen2023
+
+For data acquisition, please contact jschaon@njau.edu.cn
