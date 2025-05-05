@@ -17,9 +17,9 @@ There are also [advanced tutorials](https://mmsegmentation.readthedocs.io/en/lat
 
 Run the tools/train.py file and fill in the configuration file to train the model.
 
-We also provide code for fitting senescence curves and calculating dynamic senescence traits and in tools/senescence-logist.py
-
-Moreover, We provide code for machine learning to screen high-yielding varieties in tools/RF.py and compute OA, F1, Recall in tools/evaluate_classic.py
+#The scripts for fitting senescence curves and calculating dynamic senescence traits are provided in tools/senescence-logist.py
+#The scripts for screening high-yielding varieties using machine learning are provided in tools/RF.py
+#The scripts for computing OA, F1, and Recall metrics are provided in tools/evaluate_classic.py
 
 ## Citation
 
